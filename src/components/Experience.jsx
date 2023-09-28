@@ -86,5 +86,6 @@ const Experience = () => {
     </>
   );
 };
+// Thank you for choosing the events
 
 export default SectionWrapper(Experience, "work");
