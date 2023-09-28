@@ -63,5 +63,5 @@ const About = () => {
 }
 {/*I've invaded your repository */}
 {/*hello there */}
-{/*afadsf */}
+
 export default SectionWrapper(About,"about")
