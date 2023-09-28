@@ -18,7 +18,7 @@ function App() {
         <Works /> {/*Faculty Advisor*/}
         <Feedbacks /> {/*Crew*/}
         <div className='relative z-0'>
-          <Contact />
+          <Contact /> {/*Contact Us*/}
           
         </div>
       </div>
