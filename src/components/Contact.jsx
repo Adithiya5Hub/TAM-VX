@@ -1,6 +1,7 @@
 import React from 'react'
 import { styles } from '../styles'
 import { SectionWrapper } from '../hoc'
+
 const Contact = () => {
   return (
     <>
