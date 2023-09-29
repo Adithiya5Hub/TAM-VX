@@ -12,7 +12,7 @@ const Contact = () => {
     </div>
     
     <div>
-    <p className={`${styles.sectionSubText} text-center hover:text-violet-600 cursor-pointer`}>Contact Us </p>
+    <p className={`${styles.sectionSubText} text-center hover:text-violet-600 animate-bounce cursor-pointer`}>Contact Us </p>
     </div>
     </>
   )

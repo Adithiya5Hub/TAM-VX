@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { logo, menu, close } from "../assets";
+import { menu, close } from "../assets";
 const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
@@ -20,7 +20,7 @@ const Navbar = () => {
             setActive("");
             window.scrollTo(0, 0);
           }}>
-            <p className='text-white text-[18px] font-bold cursor-pointer flex'>TAM &nbsp;<span className='sm:block hidden text-[#915eff]'>VX</span></p>
+            <p className='text-white text-[28px] font-bold cursor-pointer flex'>TAM &nbsp;<span className='sm:block hidden text-[#915eff]'>VX</span></p>
           </Link>
           <ul className='list-none hidden sm:flex flex-row gap-10'>
             {navLinks.map((nav)=>(
@@ -52,7 +52,7 @@ const Navbar = () => {
               {navLinks.map((nav) => (
                 <li
                   key={nav.id}
-                  className={`font-poppins font-medium cursor-pointer text-[16px] ${
+                  className={`font-poppins  font-medium cursor-pointer text-[16px] ${
                     active === nav.title ? "text-white" : "text-secondary"
                   }`}
                   onClick={() => {
