@@ -20,7 +20,6 @@ const Navbar = () => {
             setActive("");
             window.scrollTo(0, 0);
           }}>
-            <img src="https://o.remove.bg/downloads/d82d91e8-0c06-41e5-b91c-25bacd9e1125/376e14c6-f99e-4695-8479-502f1caae021-removebg-preview.png" alt="logo" className='w-15 h-14 object-contain' />
             <p className='text-white text-[18px] font-bold cursor-pointer flex'>TAM &nbsp;<span className='sm:block hidden text-[#915eff]'>VX</span></p>
           </Link>
           <ul className='list-none hidden sm:flex flex-row gap-10'>
