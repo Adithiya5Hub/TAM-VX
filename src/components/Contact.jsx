@@ -12,11 +12,16 @@ const Contact = () => {
     </div>
     
     <div>
-    <p className={`${styles.sectionSubText} text-center hover:text-violet-600 animate-bounce cursor-pointer`}><a href='https://www.instagram.com/smec.tam.v9/' target='_blank'>Contact Us</a></p>
+    <p className={`${styles.sectionSubText} text-center hover:text-violet-600 animate-bounce cursor-pointer`}><a href='https://www.instagram.com/smec.tam.v9/'>Contact Us</a></p>
     </div>
     </>
   )
 }
 {/*helloo again */}
+{/*helloo again */}
+{/*helloo again */}
+
+{/*helloo again */}
+
 
 export default SectionWrapper(Contact,"contact")
