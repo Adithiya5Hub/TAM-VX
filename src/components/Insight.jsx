@@ -10,7 +10,7 @@ const FeedbackCard = ({
   index,
   testimonial,
   name,
-  designation,
+  
   company,
   image,
 }) => (
@@ -25,10 +25,10 @@ const FeedbackCard = ({
 
       <div className='mt-7 flex justify-between items-center gap-1'>
         <div className='flex-1 flex flex-col'>
-          <p className='text-white font-medium text-[16px]'>
+          <p className='text-white font-serif text-[26px]'>
              {name}
           </p>
-          <p className='mt-1 text-secondary text-[15px] hover:text-sky-500 hover:text-[18px]'>
+          <p className='mt-1 text-secondary  text-[15px] hover:text-sky-500 hover:text-[18px]'>
                <a href={company} >Click Here</a>
           </p>
         </div>
