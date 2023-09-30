@@ -21,7 +21,7 @@ function App() {
         <Feedbacks /> {/*Crew*/}
         
         
-        <div className='relative z-0'>
+        <div className='relative z-0 '>
           <Contact /> {/*Contact Us*/}
           
         </div>
