@@ -5,7 +5,7 @@ import {fadeIn} from '../utils/motion'
 
 
 
-const Tech = () => {
+const Tech = React.memo(() => {
   return (
     <>
       <motion.div variants={fadeIn("right", "spring")}>
@@ -18,6 +18,6 @@ const Tech = () => {
     </>
     
   )
-}
+})
 
 export default SectionWrapper(Tech,"principal")

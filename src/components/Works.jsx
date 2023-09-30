@@ -2,7 +2,7 @@ import React from 'react'
 import { SectionWrapper } from '../hoc'
 import { motion } from 'framer-motion'
 import {fadeIn} from '../utils/motion'
-const Works = () => {
+const Works = React.memo(() => {
   return (
     <motion.div variants={fadeIn("right", "spring")} >
       <img src="https://ik.imagekit.io/o3b14qow3gqi/Crew/sss_z642MOd4G.jpg?updatedAt=1647509408608" width="600px" className='rounded-lg'/>
@@ -12,6 +12,6 @@ const Works = () => {
       <p className= "sm:text-[18px] text-[14px] text-secondary tracking-wider">Every great organization has a great team and every great teams need a great Advisor. We as a crew at TAM have made it a point to ensure that every event is filled with a great deal of success, in addition to ensuring every participant is able to be served with equal priority. From planning the events to marketing, to making our website, we make sure that we are meeting the needs of every participant.</p>
     </motion.div>
   )
-}
+})
 
 export default SectionWrapper(Works,"faculty")
