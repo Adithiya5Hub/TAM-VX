@@ -1,5 +1,7 @@
 import { BrowserRouter } from "react-router-dom";
 import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works } from "./components";
+import Insight from "./components/Insight";
+
 
 function App() {
   
@@ -15,6 +17,7 @@ function App() {
         <Experience />  {/*Events Timeline*/}
         <Tech />    {/*Principal*/}
         <Works /> {/*Faculty Advisor*/}
+        <Insight />
         <Feedbacks /> {/*Crew*/}
         
         
@@ -22,7 +25,7 @@ function App() {
           <Contact /> {/*Contact Us*/}
           
         </div>
-        
+       
       </div>
     
     </BrowserRouter>
