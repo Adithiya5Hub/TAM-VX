@@ -12,7 +12,7 @@ const Contact = () => {
     </div>
     
     <div>
-    <p className={`${styles.sectionSubText} text-center hover:text-violet-600 cursor-pointer`}>Contact Us </p>
+    <p className={`${styles.sectionSubText} text-center hover:text-violet-600 animate-bounce cursor-pointer`}><a href='https://www.instagram.com/smec.tam.v9/'>Contact Us</a></p>
     </div>
     </>
   )
