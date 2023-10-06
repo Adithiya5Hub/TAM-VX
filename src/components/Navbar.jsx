@@ -1,6 +1,5 @@
 import React, {useEffect, useState} from 'react';
 import { Link } from 'react-router-dom';
-
 import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { menu, close } from "../assets";
@@ -34,6 +33,7 @@ const Navbar = () => {
                onClick={() => setActive(nav.title)}
               >
                 <a href={`#${nav.id}`}>{nav.title}</a>
+
               </li>
             ))}
           </ul>
@@ -61,13 +61,14 @@ const Navbar = () => {
                   }}
                 >
                   <a href={`#${nav.id}`}>{nav.title}</a>
+                  
                 </li>
               ))}
             </ul>
           </div>      
+          
 
-
-          </div>
+        </div>
       </div>
     </nav>
   )
