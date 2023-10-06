@@ -30,13 +30,16 @@ import {
       id: "about",
       title: "About",
     },
-    {
-      id: "work",
-      title: "Events",
-    },
+    
     {
       id: "contact",
       title: "Contact",
+    },
+    {
+      id: "work",
+      title: "Register",
+      
+      
     },
   ];
   
@@ -118,7 +121,7 @@ import {
     {
       title: "Event 1",
       iconBg: "#E6DEDD",
-      icon: starbucks,
+      icon: "https://cdn-icons-png.flaticon.com/128/5065/5065181.png",
       points: [
         "Cyber security is the application of technologies, processes and controls to protect systems, networks, programs, devices and data from cyber attacks. It aims to reduce the risk of cyber attacks and protect against the unauthorised exploitation of systems, networks and technologies"
         
@@ -131,7 +134,7 @@ import {
     {
       title: "Event 2",
       iconBg: "#E6DEDD",
-      icon: tesla,
+      icon: "https://cdn-icons-png.flaticon.com/128/1053/1053367.png",
       
       points: [
         "Cyber security is the application of technologies, processes and controls to protect systems, networks, programs, devices and data from cyber attacks. It aims to reduce the risk of cyber attacks and protect against the unauthorised exploitation of systems, networks and technologies"
@@ -144,7 +147,7 @@ import {
     {
       title: "Event 3",
       iconBg: "#E6DEDD",
-      icon: shopify,
+      icon: "https://cdn-icons-png.flaticon.com/128/3408/3408506.png",
      
       points: [
         "Cyber security is the application of technologies, processes and controls to protect systems, networks, programs, devices and data from cyber attacks. It aims to reduce the risk of cyber attacks and protect against the unauthorised exploitation of systems, networks and technologies"
@@ -157,7 +160,7 @@ import {
     },
     {
       title: "Event 4",
-      icon: meta,
+      icon: "https://cdn-icons-png.flaticon.com/128/5065/5065181.png",
       iconBg: "#E6DEDD",
       points: [
         "Cyber security is the application of technologies, processes and controls to protect systems, networks, programs, devices and data from cyber attacks. It aims to reduce the risk of cyber attacks and protect against the unauthorised exploitation of systems, networks and technologies"
@@ -169,7 +172,7 @@ import {
     },
     {
       title: "Event 5",
-      icon: meta,
+      icon: "https://cdn-icons-png.flaticon.com/128/3408/3408506.png",
       iconBg: "#E6DEDD",
       points: [
         "Cyber security is the application of technologies, processes and controls to protect systems, networks, programs, devices and data from cyber attacks. It aims to reduce the risk of cyber attacks and protect against the unauthorised exploitation of systems, networks and technologies"
@@ -181,7 +184,7 @@ import {
     },
     {
       title: "Event 6",
-      icon: meta,
+      icon: "https://cdn-icons-png.flaticon.com/128/1053/1053367.png",
       iconBg: "#E6DEDD",
       points: [
         "Cyber security is the application of technologies, processes and controls to protect systems, networks, programs, devices and data from cyber attacks. It aims to reduce the risk of cyber attacks and protect against the unauthorised exploitation of systems, networks and technologies"
@@ -193,7 +196,7 @@ import {
     },
     {
       title: "Event 7",
-      icon: meta,
+      icon: "https://cdn-icons-png.flaticon.com/128/3408/3408506.png",
       iconBg: "#E6DEDD",
       points: [
         "Cyber security is the application of technologies, processes and controls to protect systems, networks, programs, devices and data from cyber attacks. It aims to reduce the risk of cyber attacks and protect against the unauthorised exploitation of systems, networks and technologies"
