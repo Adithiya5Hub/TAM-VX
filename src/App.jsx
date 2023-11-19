@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works } from "./components";
+import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works,Crew } from "./components";
 import Insight from "./components/Insight";
 
 
@@ -10,6 +10,7 @@ function App() {
       <Routes>
         <Route path='/' element={<MainApp/>}/>
         <Route path="/experience" element={<Experience/>}/>
+        <Route path='/crew' element={<Crew/>} />
       </Routes>
     </BrowserRouter>
 
