@@ -33,9 +33,16 @@ const Navbar = () => {
                onClick={() => setActive(nav.title)}
               >
                 <a href={`#${nav.id}`}>{nav.title}</a>
-
               </li>
             ))}
+            <Link to={'/experience'} target='_blank'> <li
+                className={`text-secondary hover:text-white text-[18px] font-medium`}>
+                <a>{'Register'}</a>
+              </li></Link>
+              <Link to={'/crew'} target='_blank'> <li
+                className={`text-secondary hover:text-white text-[18px] font-medium`}>
+                <a>{'Crew'}</a>
+              </li></Link>
           </ul>
 
           <div className='sm:hidden flex flex-1 justify-end items-center'>
@@ -66,8 +73,6 @@ const Navbar = () => {
               ))}
             </ul>
           </div>      
-          
-
         </div>
       </div>
     </nav>
