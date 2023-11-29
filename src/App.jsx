@@ -9,7 +9,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<MainApp/>}/>
-        <Route path="/experience" element={<Experience/>}/>
+        
         <Route path='/crew' element={<Crew/>} />
       </Routes>
     </BrowserRouter>
@@ -26,6 +26,7 @@ const MainApp = () => {
       <Hero />
     </div>
     <About />
+    <Experience />
     <Tech />    {/*Principal*/}
     <Works /> {/*Faculty Advisor*/}
     <Insight />

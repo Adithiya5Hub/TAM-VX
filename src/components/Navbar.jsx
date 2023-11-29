@@ -36,10 +36,7 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
-          <Link to={'/experience'} target='_blank'> <li
-            className={`text-secondary hover:text-white text-[18px] font-medium`}>
-            <a>{'Register'}</a>
-          </li></Link>
+          
           <Link to={'/crew'} target='_blank'> <li
             className={`text-secondary hover:text-white text-[18px] font-medium`}>
             <a>{'Crew'}</a>
