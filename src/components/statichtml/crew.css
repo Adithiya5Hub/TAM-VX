@@ -16,11 +16,14 @@
 	--cut: 20px;
 }
 
-.crew-page, body{
+body{
+	background: var(--color-bg) url('src/components/statichtml/img/bg.jpg') no-repeat 50% 50% fixed;
+}
+
+.crew-page, .loading{
 
 	margin: 0;
 	color: var(--color-text);
-	background: var(--color-bg) url('src/components/img/bg.jpg') no-repeat 50% 50% fixed;
 	background-size: cover;
 	font-family: "iki-mono-variable", sans-serif;
 	font-variation-settings: "wdth" 80, "wght" 300;
@@ -192,17 +195,18 @@ span.frame__demos-item:not(:first-child) {
 
 .grid__title {
 	text-transform: uppercase;
-	font-size: 6.75vw;
+	font-size: 65px;
 	line-height: 0.8;
 	opacity: 0.4;
-  margin: 80px 0;
+  	margin: 40px ;
 	font-family: "tt-autonomous", -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
 	font-weight: 200;
 	line-height: 0.8;
 	background-color: #fff;
 	background-image: linear-gradient(45deg, #fdf17b, #54ad8a, #a054fd);
-	background-size: 100%;
+	/* background-size: 100%; */
 	background-repeat: repeat;
+	text-align: center;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent; 
 	-moz-background-clip: text;
@@ -230,7 +234,7 @@ span.frame__demos-item:not(:first-child) {
 	position: absolute;
 	top: 0;
 	left: 0;
-	z-index: 1;
+	z-index: 0;
 	will-change: filter, transform;
 }
 
@@ -242,87 +246,93 @@ span.frame__demos-item:not(:first-child) {
 	transform: scale3d(1.2,1.2,1.2);
 }
 
-.card__box {
+.hello{
+	/* display: none; */
+	position: absolute;
+	bottom: 0;
+	color:white;
+	z-index: 1;
+}
+
+.card-img:hover{
+	
+	.hello{
+		display: block;
+	}
+
+}
+
+.card {
+	aspect-ratio: 1;
+	overflow: hidden;
+	position: relative;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	gap: 0.5rem;
+	padding: 0.5rem;
+	grid-template-areas: 'box-a box-b' 'box-c box-d';
+	cursor: pointer;
+  }
+
+  /* .dept{
+	border:1px solid red;
+	font-size: 44px;
+	display: grid;
+	place-items: center;
+  } */
+  
+  .card__img {
+	background-size: cover;
+	background-position: 50% 50%;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+	/* background-image: url('src/components/statichtml/img/3.jpg'); */
+	will-change: filter, transform;
+  }
+  
+  .hello {
+	/* Initial state */
+	transform: translateY(100%);
 	opacity: 0;
-	z-index: 2;
-	padding: 1rem;
+	transition: transform 0.5s, opacity 0.5s;
+	position: absolute;
+	bottom: 0;
+	color: white;
+	z-index: 1;
+	
+	background-color: rgba(22, 20, 20, 0.566);
+	border-radius: 25% 25% 0 0;
+	padding-top: 20px;
+	/* font-style:italic; */
+	letter-spacing: 2px;
+	font-weight: 700;
+	font-family: "Inter";
+	/* font-size: larger; */
+	height: 120px;
+	width:100%;
 	display: flex;
-	position: relative;
-	overflow: hidden;
 	flex-direction: column;
-	background-color: rgba(255, 255, 255, .15);
-	backdrop-filter: blur(5px);
-}
+	align-items: center;
+	gap: 5px;
+  }
+  
+  .card:hover .hello {
+	transform: translateY(0);
+	opacity: 1;
+  }
 
-.card__box--a {
-	grid-area: box-a;
-}
+  .card:hover .card__img {
+	filter:blur(1.5px);
+  }
+  
 
-.card__box--b {
-	grid-area: box-b;
-}
-
-.card__box--c {
-	grid-area: box-c;
-}
-
-.card__box--d {
-	grid-area: box-d;
-}
-
-.card__box--b,
-.card__box--d {
-	align-items: flex-end;
-	text-align: right;
-}
-
-/* Corners made with https://css-generators.com/custom-corners/ by Temani Afif */
-
-.card__box--a,
-.card__box--d {
-	clip-path: polygon(0 0,calc(100% - var(--cut)) 0,100% var(--cut),100% 100%,var(--cut) 100%,0 calc(100% - var(--cut)));
-}
-
-.card__box--b,
-.card__box--c {
-	clip-path: polygon(0 var(--cut),var(--cut) 0,100% 0,100% calc(100% - var(--cut)),calc(100% - var(--cut)) 100%,0 100%);
-}
-
-.card__box-number {
-	font-size: clamp(2rem, 10vw, 3.5rem);
-	font-family: "tt-autonomous", -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
-	font-weight: 200;
-	line-height: 0.8;
-	grid-area: number;
-}
-
-.card__box--alt {
-	color: var(--color-text-alt);
-}
-
-.card__box-tags,
-.card__box-category {
-	font-size: 0.85rem;
-	font-weight: 600;
-	margin-top: auto;
-}
-
-.card__box-tags {
-	grid-area: tags;
-	font-size: 0.65rem;
-}
-
-.card__box-category {
-	grid-area: category;
-}
-
-.card__box > span {
-	display: inline-bock;
-	position: relative;
-	overflow: hidden;
-}
-
-@media screen and (min-width: 53em) {
+@media screen and (min-width: 768px) {
+	
 	.frame {
 		position: fixed;
 		bottom: 0;
