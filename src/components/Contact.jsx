@@ -14,9 +14,9 @@ const Contact = () => {
     <div>
     <p className={`${styles.sectionSubText} text-center hover:text-violet-600 animate-bounce cursor-pointer`}>Contact Us</p>
       <div className='flex justify-evenly p-6'>
-        <a href="https://www.instagram.com/smec.tam.v9/" target='_blank'><img src="https://cdn-icons-png.flaticon.com/128/174/174855.png" alt="Instagram" className='w-12 h-12 hover:scale-125' /></a>
-        <a href="https://www.instagram.com/smec.tam.v9/" target='_blank'><img src="https://cdn-icons-png.flaticon.com/128/3992/3992606.png" alt="Instagram" className='w-12 h-12 hover:scale-125 ' /></a>
-        <a href="https://www.instagram.com/smec.tam.v9/" target='_blank'><img src="https://cdn-icons-png.flaticon.com/128/4926/4926637.png" alt="Instagram" className='w-14 h-14 hover:scale-125 ' /></a>
+        <a href="https://www.instagram.com/smec.tam.vx/" target='_blank'><img src="https://cdn-icons-png.flaticon.com/128/174/174855.png" alt="Instagram" className='w-12 h-12 hover:scale-125' /></a>
+        <a href="https://www.linkedin.com/in/tam-vx-technology-awareness-month-2024982a0/" target='_blank'><img src="https://cdn-icons-png.flaticon.com/128/3992/3992606.png" alt="LinkedIn" className='w-12 h-12 hover:scale-125 ' /></a>
+        <a href="https://forms.gle/BWownWZrgUx9nTZe8" target='_blank'><img src="https://cdn-icons-png.flaticon.com/128/2991/2991110.png" alt="Google Form" className='w-14 h-14 hover:scale-125 ' /></a>
       </div>
     
     </div>
