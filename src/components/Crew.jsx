@@ -90,7 +90,7 @@ const Crew = () => {
                     <div
                         className="card__img"
                         style={{
-                        backgroundImage: "url('https://media-maa2-2.cdn.whatsapp.net/v/t61.24694-24/396378293_6967214266669292_6893088234595886589_n.jpg?ccb=11-4&oh=01_AdSrdrGt2YFlJbIyts5hHn8BLVuYtafx4AB_RFrQNR4t5A&oe=657589BF&_nc_sid=e6ed6c&_nc_cat=107')",
+                        backgroundImage: "url('src/components/statichtml/img/Fayaz.jpg')",
                         borderRadius: "5px",    
                     }}
                     />
