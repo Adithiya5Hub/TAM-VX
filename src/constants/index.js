@@ -117,7 +117,7 @@ import {
   
   const experiences = [
     {
-      title: "Event 1",
+      title: "TAM Day",
       iconBg: "#E6DEDD",
       icon: "https://cdn-icons-png.flaticon.com/128/5065/5065181.png",
       points: [
@@ -130,7 +130,7 @@ import {
       
     },
     {
-      title: "Event 2",
+      title: "Sports Quiz",
       iconBg: "#E6DEDD",
       icon: "https://cdn-icons-png.flaticon.com/128/1053/1053367.png",
       
@@ -143,7 +143,7 @@ import {
       
     },
     {
-      title: "Event 3",
+      title: "Entertainment Quiz",
       iconBg: "#E6DEDD",
       icon: "https://cdn-icons-png.flaticon.com/128/3408/3408506.png",
      
@@ -157,7 +157,7 @@ import {
       
     },
     {
-      title: "Event 4",
+      title: "General Quiz",
       icon: "https://cdn-icons-png.flaticon.com/128/5065/5065181.png",
       iconBg: "#E6DEDD",
       points: [
@@ -169,7 +169,7 @@ import {
       
     },
     {
-      title: "Event 5",
+      title: "Technical Talkshow",
       icon: "https://cdn-icons-png.flaticon.com/128/3408/3408506.png",
       iconBg: "#E6DEDD",
       points: [
@@ -181,7 +181,7 @@ import {
       
     },
     {
-      title: "Event 6",
+      title: "Non-Technical Talkshow",
       icon: "https://cdn-icons-png.flaticon.com/128/1053/1053367.png",
       iconBg: "#E6DEDD",
       points: [
@@ -193,7 +193,46 @@ import {
       
     },
     {
-      title: "Event 7",
+      title: "Group Discussion",
+      icon: "https://cdn-icons-png.flaticon.com/128/3408/3408506.png",
+      iconBg: "#E6DEDD",
+      points: [
+        "Cyber security is the application of technologies, processes and controls to protect systems, networks, programs, devices and data from cyber attacks. It aims to reduce the risk of cyber attacks and protect against the unauthorised exploitation of systems, networks and technologies"
+      ],
+      
+        
+      link: "https://example.com/cyber-security"
+      // You can add other properties such as onClick, target, etc., based on your requirements
+      
+    },
+    {
+      title: "Workshop 1",
+      icon: "https://cdn-icons-png.flaticon.com/128/3408/3408506.png",
+      iconBg: "#E6DEDD",
+      points: [
+        "Cyber security is the application of technologies, processes and controls to protect systems, networks, programs, devices and data from cyber attacks. It aims to reduce the risk of cyber attacks and protect against the unauthorised exploitation of systems, networks and technologies"
+      ],
+      
+        
+      link: "https://example.com/cyber-security"
+      // You can add other properties such as onClick, target, etc., based on your requirements
+      
+    },
+    {
+      title: "Workshop 2",
+      icon: "https://cdn-icons-png.flaticon.com/128/3408/3408506.png",
+      iconBg: "#E6DEDD",
+      points: [
+        "Cyber security is the application of technologies, processes and controls to protect systems, networks, programs, devices and data from cyber attacks. It aims to reduce the risk of cyber attacks and protect against the unauthorised exploitation of systems, networks and technologies"
+      ],
+      
+        
+      link: "https://example.com/cyber-security"
+      // You can add other properties such as onClick, target, etc., based on your requirements
+      
+    },
+    {
+      title: "1st Years Workshop",
       icon: "https://cdn-icons-png.flaticon.com/128/3408/3408506.png",
       iconBg: "#E6DEDD",
       points: [

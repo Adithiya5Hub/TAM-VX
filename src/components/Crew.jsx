@@ -26,7 +26,8 @@ const Crew = () => {
                     <div
                         className="card__img"
                         style={{
-                        backgroundImage: "url(src/components/statichtml/img/3.jpg)",
+                        backgroundImage: "url(src/components/statichtml/img/Sathvik.jpeg)",
+                        borderRadius: "5px",
                         }}
                     />
                     <div className="hello">
@@ -39,8 +40,9 @@ const Crew = () => {
                     <div
                         className="card__img"
                         style={{
-                        backgroundImage: "url('https://media-maa2-2.cdn.whatsapp.net/v/t61.24694-24/394368800_380242877900237_9142608865082504114_n.jpg?ccb=11-4&oh=01_AdSsCTikWMUeg4HoURgVw7sRoXojMs_Mjx8hyh-7UHo-Yg&oe=657584DF&_nc_sid=e6ed6c&_nc_cat=107')",
-                        }}
+                        backgroundImage: "url(src/components/statichtml/img/Adithiya.jpg)",
+                        borderRadius: "5px",
+                    }}
                     />
                     <div className="hello">
                         <p className="PName">S. ADITHIYA</p>
@@ -52,7 +54,8 @@ const Crew = () => {
                     <div
                         className="card__img"
                         style={{
-                        backgroundImage: "url(src/components/statichtml/img/3.jpg)",
+                        backgroundImage: "url(src/components/statichtml/img/Rasul.jpg)",
+                        borderRadius: "5px",
                         }}
                     />
                     <div className="hello">
@@ -65,8 +68,9 @@ const Crew = () => {
                     <div
                         className="card__img"
                         style={{
-                        backgroundImage: "url(src/components/statichtml/img/3.jpg)",
-                        }}
+                        backgroundImage: "url('https://media-tir3-1.cdn.whatsapp.net/v/t61.24694-24/377332674_1101650577478236_1806017865510224546_n.jpg?ccb=11-4&oh=01_AdS1_zyUd-KH-7IjXc5UWUYVJyO6QU7lkLi6gdpwHjgycQ&oe=6574398A&_nc_sid=e6ed6c&_nc_cat=108')",
+                        borderRadius: "5px",    
+                    }}
                     />
                     <div className="hello">
                         <p className="PName">PAVAN</p>
@@ -86,8 +90,9 @@ const Crew = () => {
                     <div
                         className="card__img"
                         style={{
-                        backgroundImage: "url('https://media-maa2-2.cdn.whatsapp.net/v/t61.24694-24/396378293_6967214266669292_6893088234595886589_n.jpg?ccb=11-4&oh=01_AdSrdrGt2YFlJbIyts5hHn8BLVuYtafx4AB_RFrQNR4t5A&oe=657589BF&_nc_sid=e6ed6c&_nc_cat=107')",
-                        }}
+                        backgroundImage: "url('src/components/statichtml/img/Fayaz.jpg')",
+                        borderRadius: "5px",    
+                    }}
                     />
                     <div className="hello">
                         <p className="PName">FAYAZ</p>
@@ -99,8 +104,9 @@ const Crew = () => {
                     <div
                         className="card__img"
                         style={{
-                        backgroundImage: "url(src/components/statichtml/img/3.jpg)",
-                        }}
+                        backgroundImage: "url(src/components/statichtml/img/Aditya.jpg)",
+                        borderRadius: "5px",    
+                    }}
                     />
                     <div className="hello">
                         <p className="PName">M. ADITYA </p>
@@ -112,7 +118,8 @@ const Crew = () => {
                     <div
                         className="card__img"
                         style={{
-                        backgroundImage: "url(src/components/statichtml/img/3.jpg)",
+                        backgroundImage: "url(src/components/statichtml/img/Kalyan.jpg)",
+                        borderRadius: "5px",
                         }}
                     />
                     <div className="hello">
@@ -125,7 +132,8 @@ const Crew = () => {
                     <div
                         className="card__img"
                         style={{
-                        backgroundImage: "url(src/components/statichtml/img/3.jpg)",
+                        backgroundImage: "url(src/components/statichtml/img/Vineeth.jpg)",
+                        borderRadius: "5px",
                         }}
                     />
                     <div className="hello">
@@ -145,7 +153,8 @@ const Crew = () => {
                     <div
                         className="card__img"
                         style={{
-                        backgroundImage: "url(src/components/statichtml/img/3.jpg)",
+                        backgroundImage: "url(src/components/statichtml/img/Sujith.jpg)",
+                        borderRadius: "5px",
                         }}
                     />
                     <div className="hello">
@@ -158,7 +167,8 @@ const Crew = () => {
                     <div
                         className="card__img"
                         style={{
-                        backgroundImage: "url(src/components/statichtml/img/3.jpg)",
+                        backgroundImage: "url(src/components/statichtml/img/Monish.jpg)",
+                        borderRadius: "5px",
                         }}
                     />
                     <div className="hello">
@@ -171,7 +181,8 @@ const Crew = () => {
                     <div
                         className="card__img"
                         style={{
-                        backgroundImage: "url(src/components/statichtml/img/3.jpg)",
+                        backgroundImage: "url(src/components/statichtml/img/Vinay.jpg)",
+                        borderRadius: "5px",
                         }}
                     />
                     <div className="hello">
@@ -184,7 +195,8 @@ const Crew = () => {
                     <div
                         className="card__img"
                         style={{
-                        backgroundImage: "url(src/components/statichtml/img/3.jpg)",
+                        backgroundImage: "url(src/components/statichtml/img/Nadella.jpg)",
+                        borderRadius: "5px",
                         }}
                     />
                     <div className="hello">
@@ -196,7 +208,8 @@ const Crew = () => {
                     <div
                         className="card__img"
                         style={{
-                        backgroundImage: "url('src/components/statichtml/img/3.jpg')",
+                        backgroundImage: "url('src/components/statichtml/img/Richitha.jpg')",
+                        borderRadius: "5px",
                         }}
                     />
                     <div className="hello">
@@ -216,7 +229,8 @@ const Crew = () => {
                     <div
                         className="card__img"
                         style={{
-                        backgroundImage: "url(src/components/statichtml/img/3.jpg)",
+                        backgroundImage: "url(src/components/statichtml/img/Pokshani.jpg)",
+                        borderRadius: "5px",
                         }}
                     />
                     <div className="hello">
@@ -229,11 +243,12 @@ const Crew = () => {
                     <div
                         className="card__img"
                         style={{
-                        backgroundImage: "url(src/components/statichtml/img/3.jpg)",
+                        backgroundImage: "url(src/components/statichtml/img/Suraj.jpg)",
+                        borderRadius: "5px",
                         }}
                     />
                     <div className="hello">
-                        <p className="PName">SURAJ</p>
+                        <p className="PName">SURAJ </p>
                         <p className="PDep">Wizards 3<sup>rd</sup>  year</p>
                     </div>
                 </div>
@@ -242,7 +257,8 @@ const Crew = () => {
                     <div
                         className="card__img"
                         style={{
-                        backgroundImage: "url(src/components/statichtml/img/3.jpg)",
+                        backgroundImage: "url(src/components/statichtml/img/Ali.jpg)",
+                        borderRadius: "5px",
                         }}
                     />
                     <div className="hello">
@@ -265,7 +281,8 @@ const Crew = () => {
                     <div
                         className="card__img"
                         style={{
-                        backgroundImage: "url(src/components/statichtml/img/3.jpg)",
+                        backgroundImage: "url(src/components/statichtml/img/Manasa.jpg)",
+                        borderRadius: "5px",
                         }}
                     />
                     <div className="hello">
@@ -278,7 +295,8 @@ const Crew = () => {
                     <div
                         className="card__img"
                         style={{
-                        backgroundImage: "url(src/components/statichtml/img/3.jpg)",
+                        backgroundImage: "url(src/components/statichtml/img/Aashrith.jpg)",
+                        borderRadius: "5px",
                         }}
                     />
                     <div className="hello">
@@ -291,7 +309,9 @@ const Crew = () => {
                     <div
                         className="card__img"
                         style={{
-                        backgroundImage: "url(src/components/statichtml/img/3.jpg)",
+                        backgroundImage: "url(src/components/statichtml/img/Aabash.jpg)",
+                        borderRadius: "5px",
+                        
                         }}
                     />
                     <div className="hello">
@@ -304,7 +324,8 @@ const Crew = () => {
                     <div
                         className="card__img"
                         style={{
-                        backgroundImage: "url('src/components/statichtml/img/3.jpg')",
+                        backgroundImage: "url('src/components/statichtml/img/Sania.jpg')",
+                        borderRadius: "5px",
                         }}
                     />
                     <div className="hello">
@@ -318,7 +339,8 @@ const Crew = () => {
                     <div
                         className="card__img"
                         style={{
-                        backgroundImage: "url(src/components/statichtml/img/3.jpg)",
+                        backgroundImage: "url(src/components/statichtml/img/Darshini.jpg)",
+                        borderRadius: "5px",
                         }}
                     />
                     <div className="hello">
@@ -342,7 +364,8 @@ const Crew = () => {
                     <div
                         className="card__img"
                         style={{
-                        backgroundImage: "url(src/components/statichtml/img/3.jpg)",
+                        backgroundImage: "url(src/components/statichtml/img/Madhulika.jpg)",
+                        borderRadius: "5px",
                         }}
                     />
                     <div className="hello">
@@ -355,7 +378,8 @@ const Crew = () => {
                     <div
                         className="card__img"
                         style={{
-                        backgroundImage: "url(src/components/statichtml/img/3.jpg)",
+                        backgroundImage: "url(src/components/statichtml/img/Rishik.jpeg)",
+                        borderRadius: "5px",
                         }}
                     />
                     <div className="hello">
@@ -369,7 +393,8 @@ const Crew = () => {
                     <div
                         className="card__img"
                         style={{
-                        backgroundImage: "url(src/components/statichtml/img/3.jpg)",
+                        backgroundImage: "url(src/components/statichtml/img/SaiKiran.jpg)",
+                        borderRadius: "5px",
                         }}
                     />
                     <div className="hello">
@@ -392,7 +417,8 @@ const Crew = () => {
                     <div
                         className="card__img"
                         style={{
-                        backgroundImage: "url(src/components/statichtml/img/3.jpg)",
+                        backgroundImage: "url(src/components/statichtml/img/Santoshi.jpg)",
+                        borderRadius: "5px",
                         }}
                     />
                     <div className="hello">
@@ -405,7 +431,8 @@ const Crew = () => {
                     <div
                         className="card__img"
                         style={{
-                        backgroundImage: "url(src/components/statichtml/img/3.jpg)",
+                        backgroundImage: "url(src/components/statichtml/img/PranavRaj.jpg)",
+                        borderRadius: "5px",
                         }}
                     />
                     <div className="hello">
@@ -418,7 +445,8 @@ const Crew = () => {
                     <div
                         className="card__img"
                         style={{
-                        backgroundImage: "url(src/components/statichtml/img/3.jpg)",
+                        backgroundImage: "url(src/components/statichtml/img/Boyna.jpeg)",
+                        borderRadius: "5px",
                         }}
                     />
                     <div className="hello">
@@ -431,7 +459,8 @@ const Crew = () => {
                     <div
                         className="card__img"
                         style={{
-                        backgroundImage: "url(src/components/statichtml/img/3.jpg)",
+                        backgroundImage: "url(src/components/statichtml/img/Deekshith.jpg)",
+                        borderRadius: "5px",
                         }}
                     />
                     <div className="hello">
@@ -452,7 +481,8 @@ const Crew = () => {
                     <div
                         className="card__img"
                         style={{
-                        backgroundImage: "url(src/components/statichtml/img/3.jpg)",
+                        backgroundImage: "url(src/components/statichtml/img/Nihal.jpg)",
+                        borderRadius: "5px",
                         }}
                     />
                     <div className="hello">
@@ -465,7 +495,8 @@ const Crew = () => {
                     <div
                         className="card__img"
                         style={{
-                        backgroundImage: "url(src/components/statichtml/img/3.jpg)",
+                        backgroundImage: "url(src/components/statichtml/img/Veda.jpg)",
+                        borderRadius: "5px",
                         }}
                     />
                     <div className="hello">
@@ -478,7 +509,8 @@ const Crew = () => {
                     <div
                         className="card__img"
                         style={{
-                        backgroundImage: "url(src/components/statichtml/img/3.jpg)",
+                        backgroundImage: "url(src/components/statichtml/img/Sanketh.jpg)",
+                        borderRadius: "5px",
                         }}
                     />
                     <div className="hello">
