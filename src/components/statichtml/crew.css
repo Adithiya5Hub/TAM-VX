@@ -18,6 +18,7 @@
 
 body{
 	background: var(--color-bg) url('src/components/statichtml/img/bg.jpg') no-repeat 50% 50% fixed;
+	background-size: cover;
 }
 
 .crew-page, .loading{
@@ -254,11 +255,8 @@ span.frame__demos-item:not(:first-child) {
 	z-index: 1;
 }
 
-.card-img:hover{
-	
-	.hello{
+.card-img:hover .hello{
 		display: block;
-	}
 
 }
 

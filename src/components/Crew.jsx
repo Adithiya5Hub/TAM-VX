@@ -68,7 +68,7 @@ const Crew = () => {
                     <div
                         className="card__img"
                         style={{
-                        backgroundImage: "url('https://media-tir3-1.cdn.whatsapp.net/v/t61.24694-24/377332674_1101650577478236_1806017865510224546_n.jpg?ccb=11-4&oh=01_AdS1_zyUd-KH-7IjXc5UWUYVJyO6QU7lkLi6gdpwHjgycQ&oe=6574398A&_nc_sid=e6ed6c&_nc_cat=108')",
+                        backgroundImage: "url(src/components/statichtml/img/Pavan.jpg)",
                         borderRadius: "5px",    
                     }}
                     />
@@ -90,7 +90,7 @@ const Crew = () => {
                     <div
                         className="card__img"
                         style={{
-                        backgroundImage: "url('src/components/statichtml/img/Fayaz.jpg')",
+                        backgroundImage: "url(src/components/statichtml/img/Fayaz.jpg)",
                         borderRadius: "5px",    
                     }}
                     />
